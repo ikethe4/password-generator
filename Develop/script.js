@@ -2,14 +2,14 @@
 var generateBtn = document.querySelector("#generate");
 //make array with symbols, one with numbers, one with uppercase, one with lower case
 var charBank = []
-var symb = [" !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}"]
-var num = ["0123456789"]
-var lc = ["abcdefghijklmnopqrstuvwxyz"]
-var uc = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+var symb = [" ", "!", "\"", "#", "$", "%", "&", "\'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "@", "[", "\\", "]", "^", "_", "`", "{", "|", "}"]
+var num = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+var lc = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+var uc = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 
 //prompts for selection criteria
 function generatePassword() {
-  var passwordLength= prompt("How many characters would you like your password to be?");
+  var passwordLength= prompt("How many ch aracters would you like your password to be?");
     if (passwordLength > 7 && passwordLength < 126) {
       alert ("test")
     }
