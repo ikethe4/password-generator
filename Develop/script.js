@@ -18,7 +18,7 @@ function generatePassword() { //password length prompt
       isValid = true
     }
     else {
-      alert ("please select a number from 8-125");
+      alert ("please select a number from 8-128");
     }
   } 
     while (!isValid);
